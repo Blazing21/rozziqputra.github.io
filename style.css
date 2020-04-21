@@ -144,12 +144,7 @@ section {
 
 }
 
-.workingspace p {
-  font-weight: 200;
-  font-size: 18px;
-  color: #acacac;
-  margin-top: 10px;
-}
+
 
 .text-name {
   font-family: "quicksand";
@@ -179,10 +174,6 @@ section {
   /* margin-left: 30%; */
   margin-left: auto;
   margin-right: auto;
-}
-
-.workingspace .skil-text {
-  text-align: left !important;
 }
 
 /* personal */
@@ -267,6 +258,10 @@ section {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.carousel-item {
+  border-radius: 10px !important;
 }
 
 
@@ -367,6 +362,17 @@ section {
 
   }
 
+  .jumbotron .sosmed {
+    text-align: left;
+    color: gray !important;
+  }
+
+  .jumbotron .sosmed a {
+    color: honeydew !important;
+    padding: 8px;
+  }
+
+
   /* info panel */
   .info-panel {
     margin-top: -130px;
@@ -410,14 +416,25 @@ section {
     padding: 50px !important;
   }
 
-
-
-
-
-
   .testimonial h5 {
     font-size: 32px;
   }
+
+  .workingspace p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #acacac;
+    margin-top: 10px;
+  }
+
+  .jumbotron .sosmed a {
+    color: #ffffff !important;
+    padding: 5px;
+    font-size: 0.7em !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+
+  }
+
 
 }
 
@@ -444,6 +461,7 @@ section {
   .nav-link {
     color: #5f27cd !important;
     font-family: "quicksand" !important;
+    font-size: 20px;
   }
 
   .nav-link {
@@ -459,6 +477,19 @@ section {
 
   .navbar {
     box-shadow: indigo;
+  }
+
+  .text-content p {
+    text-align: justify;
+  }
+
+
+  .jumbotron .sosmed a {
+    color: honeydew !important;
+    padding: 5px;
+    font-size: 0.7em !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+
   }
 
 
@@ -497,7 +528,7 @@ section {
   }
 
   .jumbotron p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 
   }
@@ -532,12 +563,12 @@ section {
   }
 
   .text-content h5 {
-    font-size: 20px !important;
+    font-size: 18px !important;
     margin-top: 20px;
   }
 
   .text-content p {
-    font-size: 18px !important;
+    font-size: 13px !important;
     margin-top: 10px;
   }
 
